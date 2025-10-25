@@ -1,4 +1,4 @@
-# libfprint-test
+# libfprint-focaltech-0xc652
 
 This project contains a test driver for libfprint with FocalTech's fingerprint sensor, specifically: 2808:c652.
 
