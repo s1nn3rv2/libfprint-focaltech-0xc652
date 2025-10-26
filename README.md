@@ -9,8 +9,9 @@ This driver is incomplete and doesn't fully work (verifying always returns score
 ## How to run test driver with libfprint
 ```bash
 git clone https://gitlab.freedesktop.org/libfprint/libfprint.git
-cd libfprint
 git clone https://github.com/s1nn3rv2/libfprint-focaltech-0xc652.git
+cp -r ./libfprint-focaltech-0xc652/* ./libfprint/
+cd libfprint
 meson setup builddir -Ddrivers=all
 cd builddir
 ninja
