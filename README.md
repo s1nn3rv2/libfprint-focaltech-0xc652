@@ -6,6 +6,14 @@ This project contains a test driver for libfprint with FocalTech's fingerprint s
 
 This driver is incomplete and doesn't fully work (verifying always returns score 0). I need help, so if you wanna give it a shot go ahead!
 
+## Alternative Use: Smart Button
+
+The sensor can still detect finger presence via raw image data. Use it as a **touch trigger** for:
+
+- **Home Assistant** or any MQTT-compatible platform
+
+[focaltech-automation](https://github.com/MootComb/focaltech-automation)
+
 ## How to run test driver with libfprint
 ```bash
 git clone https://gitlab.freedesktop.org/libfprint/libfprint.git
